@@ -4,5 +4,7 @@ spring:
     config:
       server:
         git:
-          uri:  https://khurramsyed@bitbucket.org/khurramsyed/leanmentors
+          uri:  https://khurramsyed@bitbucket.org/khurramsyed/leanmentors.git
           searchPaths:  leanmentors-config
+          username:  khurramsyed
+          password:  Highhopes2
