@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: default
+  application:
+    name: lucky-word
+  cloud:
+    config:
+      uri: http://localhost:8088
+server:
+  port: 8000

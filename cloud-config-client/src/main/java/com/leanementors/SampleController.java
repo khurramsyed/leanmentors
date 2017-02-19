@@ -11,8 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class SampleController {
 
-    @Value("${lucky-word}")
-     String luckyWord;
+    @Value("${lucky-word}")String luckyWord;
 
     @RequestMapping("/lucky-word")
     public String showLuckyWord(){
