@@ -4,5 +4,5 @@ spring:
     config:
       server:
         git:
-          uri:  https://khurramsyed@bitbucket.org/khurramsyed/leanmentors
+          uri:  https://github.com/khurramsyed/leanmentors/
           searchPaths:  leanmentors-config
