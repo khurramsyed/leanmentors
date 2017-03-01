@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: lucky-word
+  cloud:
+    config:
+      uri: https://leanmentors-config-server.cfapps.io
+server:
+  port: 8000

@@ -1,0 +1,5 @@
+applications:
+- name: cloud-config-server
+  memory: 512M
+  host: SERVER
+  buildpack: java_buildpack
