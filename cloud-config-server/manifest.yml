@@ -1,0 +1,6 @@
+---
+applications:
+- name: cloud-config-server
+  memory: 512M
+  host: leanmentors-config-server
+  buildpack: java_buildpack
