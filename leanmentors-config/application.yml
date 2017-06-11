@@ -6,31 +6,6 @@ eureka:
 
 ---
 spring:
- profile: primary
-eureka:
- client:
-  serviceUrl:
-   defaultZone: http://localhost:8011,http://localhost:8012
-
-
----
-spring:
- profile: secondary
-eureka:
- client:
-  serviceUrl:
-   defaultZone: http://localhost:8010,http://localhost:8012
-
----
-spring:
- profile: tertiary
-eureka:
- client:
-  serviceUrl:
-   defaultZone: http://localhost:8010,http://localhost:8011
-
----
-spring:
   profiles: subject
 words: I,You,He,She,It
 
