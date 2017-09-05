@@ -1,6 +1,7 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
-
+!maven-wrapper.jar 
+ 
 \#\#\# STS \#\#\#
 .apt_generated
 .classpath
@@ -8,6 +9,7 @@ target/
 .project
 .settings
 .springBeans
+
 
 \#\#\# IntelliJ IDEA \#\#\#
 .idea
