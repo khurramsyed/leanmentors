@@ -4,5 +4,7 @@ spring:
     config:
       server:
         git:
-          uri:  https://github.com/khurramsyed/leanmentors
-          searchPaths:  leanmentors-config
+          uri: https://github.com/khurramsyed/leanmentors/
+          searchPaths: leanmentors-config
+server:
+  port:  8088
