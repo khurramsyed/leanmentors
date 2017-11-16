@@ -1,0 +1,7 @@
+---
+applications:
+- name: cloud-config-server-km
+  memory: 256M
+  random-route: true
+
+
